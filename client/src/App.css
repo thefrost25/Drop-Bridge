@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+img {
+  width: 30%;
+}
+.wrapper{
+  background-color: #fff;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: #445a65;
+  margin: 40px 0;
+}
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #445a65;
+  border: 1px solid #445a65;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+}
